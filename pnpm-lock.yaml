@@ -6,7 +6,7 @@ settings:
 
 patchedDependencies:
   nuxt-i18n-micro:
-    hash: nuhn35qt2yb3ekkhux43d2hryy
+    hash: txm3uiaksi7oj6e6i4n3aepfh4
     path: patches/nuxt-i18n-micro.patch
 
 importers:
@@ -25,7 +25,7 @@ importers:
     devDependencies:
       nuxt-i18n-micro:
         specifier: ^1.25.0
-        version: 1.25.0(patch_hash=nuhn35qt2yb3ekkhux43d2hryy)(magicast@0.3.5)(rollup@4.24.0)(vite@5.4.9(@types/node@22.7.6)(terser@5.36.0))
+        version: 1.25.0(patch_hash=txm3uiaksi7oj6e6i4n3aepfh4)(magicast@0.3.5)(rollup@4.24.0)(vite@5.4.9(@types/node@22.7.6)(terser@5.36.0))
 
 packages:
 
@@ -5504,7 +5504,7 @@ snapshots:
 
   nuxi@3.14.0: {}
 
-  nuxt-i18n-micro@1.25.0(patch_hash=nuhn35qt2yb3ekkhux43d2hryy)(magicast@0.3.5)(rollup@4.24.0)(vite@5.4.9(@types/node@22.7.6)(terser@5.36.0)):
+  nuxt-i18n-micro@1.25.0(patch_hash=txm3uiaksi7oj6e6i4n3aepfh4)(magicast@0.3.5)(rollup@4.24.0)(vite@5.4.9(@types/node@22.7.6)(terser@5.36.0)):
     dependencies:
       '@nuxt/devtools-kit': 1.6.0(magicast@0.3.5)(rollup@4.24.0)(vite@5.4.9(@types/node@22.7.6)(terser@5.36.0))
       '@nuxt/kit': 3.13.2(magicast@0.3.5)(rollup@4.24.0)
