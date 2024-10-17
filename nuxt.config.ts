@@ -1,5 +1,3 @@
-import { fileURLToPath } from 'url'
-
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
@@ -16,9 +14,4 @@ export default defineNuxtConfig({
     translationDir: 'locales',
     disablePageLocales: true,
   },
-  runtimeConfig: {
-    i18nConfig: {
-      rootDirs: [fileURLToPath(new URL('./', import.meta.url))]
-    }
-  }
 })
