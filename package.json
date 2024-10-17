@@ -19,5 +19,10 @@
   },
   "patchedDependencies": {
     "nuxt-i18n-micro@1.25.0": "patches/nuxt-i18n-micro@1.25.0.patch"
+  },
+  "pnpm": {
+    "patchedDependencies": {
+      "nuxt-i18n-micro": "patches/nuxt-i18n-micro.patch"
+    }
   }
 }
