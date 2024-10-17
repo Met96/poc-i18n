@@ -13,5 +13,8 @@
     "nuxt": "^3.13.0",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "nuxt-i18n-micro": "^1.25.0"
   }
 }
