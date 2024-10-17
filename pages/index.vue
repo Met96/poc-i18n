@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-const { getLocale} = useI18n()
+const { getLocale } = useI18n()
 const locale = getLocale()
 </script>
 <template>
