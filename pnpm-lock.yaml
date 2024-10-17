@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+patchedDependencies:
+  nuxt-i18n-micro:
+    hash: pto3mjupku5vkmzr33qxhosxra
+    path: patches/nuxt-i18n-micro.patch
+
 importers:
 
   .:
@@ -20,7 +25,7 @@ importers:
     devDependencies:
       nuxt-i18n-micro:
         specifier: 1.25.5
-        version: 1.25.5(magicast@0.3.5)(rollup@4.24.0)(vite@5.4.9(@types/node@22.7.6)(terser@5.36.0))
+        version: 1.25.5(patch_hash=pto3mjupku5vkmzr33qxhosxra)(magicast@0.3.5)(rollup@4.24.0)(vite@5.4.9(@types/node@22.7.6)(terser@5.36.0))
 
 packages:
 
@@ -5499,7 +5504,7 @@ snapshots:
 
   nuxi@3.14.0: {}
 
-  nuxt-i18n-micro@1.25.5(magicast@0.3.5)(rollup@4.24.0)(vite@5.4.9(@types/node@22.7.6)(terser@5.36.0)):
+  nuxt-i18n-micro@1.25.5(patch_hash=pto3mjupku5vkmzr33qxhosxra)(magicast@0.3.5)(rollup@4.24.0)(vite@5.4.9(@types/node@22.7.6)(terser@5.36.0)):
     dependencies:
       '@nuxt/devtools-kit': 1.6.0(magicast@0.3.5)(rollup@4.24.0)(vite@5.4.9(@types/node@22.7.6)(terser@5.36.0))
       '@nuxt/kit': 3.13.2(magicast@0.3.5)(rollup@4.24.0)
